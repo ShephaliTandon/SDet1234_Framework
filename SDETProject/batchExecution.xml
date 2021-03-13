@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2"  name="Suite">
+  <test thread-count="2"  name="Test">
+    <classes>
+      <class name="com.crm.autodesk.seperattestscriptassg.CreatePurchaseorderwithItemandDeleteTest"/>
+      <class name="com.crm.autodesk.seperattestscriptassg.CreatePurchaseOrderWithItemAndCreateAddServiceTest"/>
+      <class name="com.crm.autodesk.seperattestscriptassg.CreatePOwithItemandclickonUpwardsymbolTest"/>
+      <class name="com.crm.autodesk.seperattestscriptassg.CreatePurchaseOrderwithItemAddExisitingServiceTest"/>
+      <class name="com.crm.autodesk.seperattestscriptassg.CreatePurchaseorderWithItemandAddProductTest"/>
+      <class name="com.crm.autodesk.seperattestscriptassg.CreatePOwithItemandclickonDownwardSymbolTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
